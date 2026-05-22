@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Pratik Raval — Senior Angular Developer</title>
+  <meta name="description" content="Portfolio of Pratik Raval, Senior Angular Developer with 4.9+ years of experience building enterprise Angular applications with NgRx, RxJS, and CI/CD workflows." />
+  <meta name="keywords" content="Pratik Raval, Angular Developer, NgRx, TypeScript, Frontend Developer, Ahmedabad, Portfolio" />
+  <meta name="author" content="Pratik Raval" />
+  <meta property="og:title" content="Pratik Raval — Senior Angular Developer" />
+  <meta property="og:description" content="Enterprise Angular developer specialising in NgRx, RxJS, and scalable frontend architecture." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon: initials PR as SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAV ═══════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">PR<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">👋 Hello, I'm</p>
+      <h1 class="hero-name reveal delay-1">Pratik<br/><span class="accent">Raval</span></h1>
+      <p class="hero-title reveal delay-2">Senior Angular Developer</p>
+      <p class="hero-tagline reveal delay-3">
+        Building enterprise-grade web platforms with Angular, NgRx &amp; modern CI/CD — 
+        from zero to 5 production releases across Saudi Arabia and India.
+      </p>
+      <div class="hero-cta reveal delay-4">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal delay-5">
+        <div class="stat"><span class="stat-num">4.9+</span><span class="stat-label">Years Exp.</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Prod. Releases</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Client Countries</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-avatar scroll-reveal">
+          <div class="avatar-ring">
+            <div class="avatar-initials">PR</div>
+          </div>
+          <div class="about-badges">
+            <span class="badge">Angular Expert</span>
+            <span class="badge">NgRx</span>
+            <span class="badge">Team Lead</span>
+          </div>
+        </div>
+        <div class="about-text scroll-reveal delay-1">
+          <p>
+            I'm a <strong>Senior Angular Developer</strong> with 4.9+ years of experience architecting and
+            delivering enterprise-grade web applications. My expertise spans Angular (v13+), NgRx state
+            management, RxJS, and modern CI/CD workflows.
+          </p>
+          <p>
+            I've had hands-on delivery in agile environments for large-scale government financial platforms,
+            including the <strong>SIDF platform in Saudi Arabia</strong> — which I built from scratch and
+            shipped across 5 production releases over two companies.
+          </p>
+          <p>
+            I'm adept at leading cross-functional teams, reviewing PRs, and ensuring deployments meet
+            rigorous production standards. I care deeply about clean component architecture, reusability,
+            and high-quality user experiences.
+          </p>
+          <div class="about-links">
+            <a href="mailto:pratikraval2603@gmail.com" class="about-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              pratikraval2603@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/pratik-raval-36857b1b4" target="_blank" rel="noopener" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn Profile
+            </a>
+            <span class="about-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Ahmedabad, Gujarat, India
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">Core Skills</h2>
+      <div class="skills-categories">
+
+        <div class="skill-group scroll-reveal">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Angular 13+</span>
+            <span class="skill-tag primary">TypeScript</span>
+            <span class="skill-tag primary">RxJS</span>
+            <span class="skill-tag primary">NgRx</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Angular Material</span>
+            <span class="skill-tag">Ng Zorro</span>
+            <span class="skill-tag">Chart.js</span>
+            <span class="skill-tag">ExcelJS</span>
+            <span class="skill-tag">jsPDF</span>
+          </div>
+        </div>
+
+        <div class="skill-group scroll-reveal delay-1">
+          <h3 class="skill-group-title">State Management</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">NgRx Store</span>
+            <span class="skill-tag">Effects</span>
+            <span class="skill-tag">Selectors</span>
+            <span class="skill-tag">Actions</span>
+            <span class="skill-tag">Reducers</span>
+          </div>
+        </div>
+
+        <div class="skill-group scroll-reveal delay-2">
+          <h3 class="skill-group-title">Backend & APIs</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">NestJS</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Swagger / OpenAPI</span>
+            <span class="skill-tag">Nx Monorepo</span>
+          </div>
+        </div>
+
+        <div class="skill-group scroll-reveal delay-3">
+          <h3 class="skill-group-title">DevOps & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Bitbucket</span>
+            <span class="skill-tag">Bamboo CI/CD</span>
+            <span class="skill-tag">JIRA</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">ALM</span>
+          </div>
+        </div>
+
+        <div class="skill-group scroll-reveal delay-4">
+          <h3 class="skill-group-title">Methodologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Agile / Scrum</span>
+            <span class="skill-tag">PR Reviews</span>
+            <span class="skill-tag">Unit Testing</span>
+            <span class="skill-tag">Code Quality</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EXPERIENCE ═══════════════════════ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">Work Experience</h2>
+      <div class="timeline">
+
+        <!-- Kaar Tech -->
+        <div class="timeline-item scroll-reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Analyst — Angular Developer</h3>
+                <p class="timeline-company">Kaar Technologies India Pvt. Ltd.</p>
+                <p class="timeline-location">📍 Riyadh, KSA (Remote / Onsite)</p>
+              </div>
+              <span class="timeline-date">Jul 2024 – Present</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Continued SIDF platform development, delivering <strong>2 major production releases</strong> with analytics dashboards, Excel exports, and PDF generation.</li>
+              <li>Architected modular NgRx store restructuring — separating state slices per feature module, improving team parallelism.</li>
+              <li>Integrated Chart.js, ExcelJS &amp; jsPDF for rich data visualisation and one-click report generation for financial analysts.</li>
+              <li>Led a sub-team of developers, managed PR reviews, and production deployments via Bamboo CI/CD.</li>
+              <li>Conducted onsite stakeholder walkthroughs to validate feature scope before and after each sprint cycle.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Samcom -->
+        <div class="timeline-item scroll-reveal delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Angular Developer</h3>
+                <p class="timeline-company">Samcom Technobrains Pvt. Ltd.</p>
+                <p class="timeline-location">📍 Ahmedabad, India</p>
+              </div>
+              <span class="timeline-date">Nov 2021 – Jun 2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built the <strong>SIDF platform from scratch</strong> — defined Angular architecture, module structure, routing, and NgRx store before the first feature sprint.</li>
+              <li>Delivered <strong>3 production releases</strong>, expanding ISP-facing modules across application intake, document management, and workflow approvals.</li>
+              <li>Worked on JustBeFlex (France) — a local professional networking platform for job seekers, employers &amp; coworking spaces.</li>
+              <li>Contributed to XEMI (Mumbai) — India's first collaborative customs clearance and logistics platform.</li>
+              <li>Managed Git branching strategies across QA, UAT, and production environments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Meglyn -->
+        <div class="timeline-item scroll-reveal delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Project Assistant</h3>
+                <p class="timeline-company">Meglyn Technologies Pvt. Ltd.</p>
+                <p class="timeline-location">📍 Ahmedabad, India</p>
+              </div>
+              <span class="timeline-date">Sep 2020 – Oct 2021</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Conducted requirement gathering and gap analysis to align business objectives with technical deliverables.</li>
+              <li>Configured server environments and managed AWS S3 bucket setup for file storage pipelines.</li>
+              <li>Performed data quality assurance and script validation for clean application data flows.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">Key Projects</h2>
+      <div class="projects-grid">
+
+        <!-- SIDF -->
+        <div class="project-card featured scroll-reveal">
+          <div class="project-card-header">
+            <div class="project-icon">🏛️</div>
+            <span class="project-badge">Featured</span>
+          </div>
+          <h3 class="project-title">SIDF Platform</h3>
+          <p class="project-subtitle">Saudi Industrial Development Fund</p>
+          <p class="project-desc">
+            Built entirely from scratch — an enterprise platform serving Industrial Service Providers (ISPs) across Saudi Arabia for managing industrial development funding workflows, loan applications, and compliance tracking. Delivered 5 production releases across two organisations.
+          </p>
+          <div class="project-phases">
+            <span class="phase-tag">Phase 1: Samcom (3 releases)</span>
+            <span class="phase-tag">Phase 2: Kaar Tech (2 releases)</span>
+          </div>
+          <div class="project-stack">
+            <span>Angular 13+</span><span>NgRx</span><span>RxJS</span><span>Chart.js</span><span>ExcelJS</span><span>jsPDF</span><span>NestJS</span><span>Bamboo CI/CD</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.sidf.gov.sa" target="_blank" rel="noopener" class="project-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live Platform
+            </a>
+          </div>
+        </div>
+
+        <!-- JustBeFlex -->
+        <div class="project-card scroll-reveal delay-1">
+          <div class="project-card-header">
+            <div class="project-icon">🤝</div>
+            <span class="project-badge secondary">Client Project</span>
+          </div>
+          <h3 class="project-title">JustBeFlex</h3>
+          <p class="project-subtitle">Local Professional Network · France</p>
+          <p class="project-desc">
+            French local professional networking platform connecting job seekers, employers, coworking spaces, and event organisers by geographic territory. Built job listing discovery, company profiles, and workspace browsing modules as a Junior Angular Developer.
+          </p>
+          <div class="project-stack">
+            <span>Angular</span><span>TypeScript</span><span>RxJS</span><span>Angular Material</span><span>REST APIs</span><span>AWS S3</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.justbeflex.com" target="_blank" rel="noopener" class="project-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Visit Site
+            </a>
+          </div>
+        </div>
+
+        <!-- XEMI -->
+        <div class="project-card scroll-reveal delay-2">
+          <div class="project-card-header">
+            <div class="project-icon">🚢</div>
+            <span class="project-badge secondary">Client Project</span>
+          </div>
+          <h3 class="project-title">XEMI</h3>
+          <p class="project-subtitle">AI-Powered Import-Export Platform · Mumbai</p>
+          <p class="project-desc">
+            India's first collaborative digital platform for importers, exporters, customs brokers, freight forwarders, and transporters. Contributed to the Tracking, Vault (document management), and Insights (analytics dashboards) modules as a Junior Angular Developer.
+          </p>
+          <div class="project-stack">
+            <span>Angular</span><span>TypeScript</span><span>RxJS</span><span>Ng Zorro</span><span>REST APIs</span><span>JIRA</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.xemi.io" target="_blank" rel="noopener" class="project-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Visit Site
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EDUCATION ═══════════════════════ -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">Education</h2>
+      <div class="edu-card scroll-reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-content">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="edu-institution">Gujarat Technological University (GTU), Ahmedabad</p>
+          <span class="edu-year">2017 – 2020</span>
+        </div>
+      </div>
+      <div class="edu-card scroll-reveal delay-1">
+        <div class="edu-icon">📘</div>
+        <div class="edu-content">
+          <h3>Higher Secondary Certificate — Commerce</h3>
+          <p class="edu-institution">Shree Swaminarayan Higher &amp; Secondary School, Ahmedabad</p>
+          <span class="edu-year">2016 – 2017</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-container">
+      <h2 class="section-title scroll-reveal">Get In Touch</h2>
+      <p class="contact-intro scroll-reveal delay-1">
+        I'm open to new opportunities, collaborations, and interesting projects.
+        Drop me a message and I'll get back to you.
+      </p>
+      <div class="contact-cards scroll-reveal delay-2">
+        <a href="mailto:pratikraval2603@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">pratikraval2603@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/pratik-raval-36857b1b4" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">pratik-raval-36857b1b4</span>
+        </a>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 8849744926</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Ahmedabad, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <strong>Pratik Raval</strong> · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
